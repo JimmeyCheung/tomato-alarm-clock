@@ -1,17 +1,17 @@
 {
-  "pages":[
-    "pages/home/home",
+  "pages": [
     "pages/binding/binding",
     "pages/login/login",
     "pages/me/me",
+    "pages/home/home",
     "pages/tomato/tomato",
     "pages/test/test"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "番茄闹钟",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#515151",
@@ -24,6 +24,12 @@
         "text": "专注",
         "iconPath": "images/home.png",
         "selectedIconPath": "images/home-active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "数据统计",
+        "iconPath": "images/total.png",
+        "selectedIconPath": "images/total-active.png"
       },
       {
         "pagePath": "pages/me/me",
