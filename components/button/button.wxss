@@ -1,4 +1,4 @@
-button::after{ border: none; }
+.tomato-button::after{ border: none; }
 .button-hover { opacity: 0.6; }
 .tomato-button {
   width: 540rpx;

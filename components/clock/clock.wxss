@@ -4,7 +4,7 @@
   align-items: center;
   position: relative;
 }
-.clock text {
+.clock .text {
   color: #fff;
   font-size: 26rpx;
   position: absolute;
@@ -12,7 +12,7 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
-.clock image { 
+.clock .image { 
   width: 320rpx;
   height: 320rpx;
 }
